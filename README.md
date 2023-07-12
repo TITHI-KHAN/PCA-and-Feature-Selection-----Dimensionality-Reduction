@@ -1,4 +1,4 @@
-![image](https://github.com/TITHI-KHAN/PCA-and-Feature-Selection-----Dimensionality-Reduction/assets/65033964/ad63d01a-dc66-4cbe-8842-527b1aaf01e8)# PCA and Feature Selection(Dimensionality Reduction)
+# PCA and Feature Selection(Dimensionality Reduction)
 
 https://towardsdatascience.com/l1-and-l2-regularization-methods-ce25e7fc831c
 # Dimensionality Reduction (Feature Selection)
