@@ -7,7 +7,7 @@ https://towardsdatascience.com/l1-and-l2-regularization-methods-ce25e7fc831c
 
 ![image](https://github.com/TITHI-KHAN/PCA-and-Feature-Selection-----Dimensionality-Reduction/assets/65033964/30a8c2df-ce96-47c5-b1cf-d5cc1ffe93ca)
 
-**Dimensionality reduction** is a technique used in machine learning to reduce the number of input features or variables while preserving the important information contained in the data. It is particularly useful when working with high-dimensional datasets where the number of features is large. The goal of dimensionality reduction is to simplify the data representation by transforming it into a lower-dimensional space. This can lead to several benefits, such as:
+**Dimensionality reduction** is a technique used in machine learning to reduce the number of input features or variables while preserving the important information contained in the data. It is particularly useful when working with high-dimensional datasets where the number of features is large. The goal of dimensionality reduction is to simplify the data representation by transforming it into a lower-dimensional space. This can lead to **several benefits**, such as:
 
 **1. Reduced computational complexity:** High-dimensional data can be computationally expensive to process and analyze. Dimensionality reduction helps in reducing the computational requirements by working with a smaller set of features.
 
