@@ -28,7 +28,7 @@ Feature selection techniques can be **classified into three main categories:**
 # Introduction to Linear Algebra (Basics)
 ![image](https://github.com/TITHI-KHAN/PCA-and-Feature-Selection-----Dimensionality-Reduction/assets/65033964/5af6b542-891d-4775-ac38-e8116d13621b)
 
-![image](https://github.com/TITHI-KHAN/PCA-and-Feature-Selection-----Dimensionality-Reduction/assets/65033964/899c7e0f-8435-4a16-affa-921ddc7c206c)
+![image](https://github.com/TITHI-KHAN/PCA-and-Feature-Selection-----Dimensionality-Reduction/assets/65033964/3686b64a-82f2-4618-b057-dfd8eb00082f)
 
 ![image](https://github.com/TITHI-KHAN/PCA-and-Feature-Selection-----Dimensionality-Reduction/assets/65033964/19d4b6a5-d402-464b-a5af-83f2457d7cc6)
 
