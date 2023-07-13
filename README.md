@@ -75,3 +75,27 @@ In Step 5-8, we have to subtract the eigenvector from the actual value. Then, we
 
 ![image](https://github.com/TITHI-KHAN/PCA-and-Feature-Selection-----Dimensionality-Reduction/assets/65033964/0762ac32-d26c-4b6a-bf0f-bbbde379ebc2)
 
+**Explanation:**
+
+![image](https://github.com/TITHI-KHAN/PCA-and-Feature-Selection-----Dimensionality-Reduction/assets/65033964/52454a2c-22f8-4ce1-9959-fe0537be1259)
+
+![image](https://github.com/TITHI-KHAN/PCA-and-Feature-Selection-----Dimensionality-Reduction/assets/65033964/1ef3ee77-0748-42db-b746-6a8b6d716efc)
+
+![image](https://github.com/TITHI-KHAN/PCA-and-Feature-Selection-----Dimensionality-Reduction/assets/65033964/29585506-7e63-496a-b059-6b1e891f8a6c)
+
+![image](https://github.com/TITHI-KHAN/PCA-and-Feature-Selection-----Dimensionality-Reduction/assets/65033964/2ab2d8a5-f67c-4eff-bb26-a9de3533d883)
+
+**Gaussian Elimination:**
+
+![image](https://github.com/TITHI-KHAN/PCA-and-Feature-Selection-----Dimensionality-Reduction/assets/65033964/6e170967-995c-46e8-a196-321f35ba9101)
+
+![image](https://github.com/TITHI-KHAN/PCA-and-Feature-Selection-----Dimensionality-Reduction/assets/65033964/63084814-c2be-4ffc-8a1f-f2f6d542969f)
+
+**Cramer's Rule:**
+
+![image](https://github.com/TITHI-KHAN/PCA-and-Feature-Selection-----Dimensionality-Reduction/assets/65033964/70b55d42-52c5-43ad-ba62-34f457747788)
+
+
+
+
+
