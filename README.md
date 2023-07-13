@@ -21,14 +21,20 @@ Feature selection techniques can be **classified into three main categories:**
 
 **1. Filter Methods:** Filter methods rank features based on statistical measures or heuristic measures that assess the relevance of each feature independently of the machine learning model. Common statistical measures include **correlation coefficients, chi-square test, information gain, and mutual information**. Filter methods are computationally efficient and can be applied as a preprocessing step before training the model.
 
-**2. Wrapper Methods:** Wrapper methods evaluate feature subsets by training and evaluating a machine learning model on different subsets of features. They use a specific machine learning algorithm to assess the performance of different feature subsets. Wrapper methods are computationally more expensive compared to filter methods, but they can capture feature interactions and provide better feature subsets tailored to the specific learning algorithm. Ex: **RFE (Recursive Feature Elimination)**.
+**2. Wrapper Methods:** Wrapper methods evaluate feature subsets by training and evaluating a machine learning model on different subsets of features. They use a specific machine learning algorithm to assess the performance of different feature subsets. Wrapper methods are computationally more expensive compared to filter methods, but they can capture feature interactions and provide better feature subsets tailored to the specific learning algorithm. Ex: **RFE (Recursive Feature Elimination)** (Mostly used).
 
-**3. Embedded Methods:** Embedded methods incorporate the feature selection process as part of the model training process. These methods typically use regularization techniques, such as L1 regularization (Lasso) or L2 regularization (Ridge), which impose penalties on the model coefficients. The regularization process encourages the model to automatically select the most relevant features during training.
+**3. Embedded Methods:** Embedded methods incorporate the feature selection process as part of the model training process. These methods typically use regularization techniques, such as **L1 regularization (Lasso) or L2 regularization (Ridge)**, which impose penalties on the model coefficients. The regularization process encourages the model to automatically select the most relevant features during training.
+
+**Note:** If you are working with a Linear model, for example, Linear Regression or Logistic Regression, then use Embedded Methods. But, if you are working tree-based model, then use either Filter Methods or Wrapper Methods. Filter Methods and Wrapper Methods can be used for Classification purposes.
 
 # Introduction to Linear Algebra (Basics)
+
+**Matrix Addition:**
 ![image](https://github.com/TITHI-KHAN/PCA-and-Feature-Selection-----Dimensionality-Reduction/assets/65033964/5af6b542-891d-4775-ac38-e8116d13621b)
 
+**Matrix Multiplication:**
 ![image](https://github.com/TITHI-KHAN/PCA-and-Feature-Selection-----Dimensionality-Reduction/assets/65033964/3686b64a-82f2-4618-b057-dfd8eb00082f)
+
 
 ![image](https://github.com/TITHI-KHAN/PCA-and-Feature-Selection-----Dimensionality-Reduction/assets/65033964/19d4b6a5-d402-464b-a5af-83f2457d7cc6)
 
@@ -39,6 +45,8 @@ Feature selection techniques can be **classified into three main categories:**
 # Principal Component Analysis (In-depth PCA)
 
 ![image](https://github.com/TITHI-KHAN/PCA-and-Feature-Selection-----Dimensionality-Reduction/assets/65033964/38c1a5ee-a6c5-4c63-88f5-4457d8f439a8)
+
+In PCA, some values are calculated based on all the features through eigenvalue and eigenvector; those values carry the whole information.
 
 **Example:**
 
