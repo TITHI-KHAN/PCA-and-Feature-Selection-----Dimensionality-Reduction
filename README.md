@@ -46,11 +46,16 @@ Feature selection techniques can be **classified into three main categories:**
 
 **Rank:**
 
+Rank means how many unique columns we are getting; those columns can't be made from any other columns. In this case, we got 2 columns. So, Rank=2.
 
 ![image](https://github.com/TITHI-KHAN/PCA-and-Feature-Selection-----Dimensionality-Reduction/assets/65033964/af6c5ea9-7cf3-4133-b258-2ce7e34a2bfa)
 
-**Homogeneity of Linear System:**
+![image](https://github.com/TITHI-KHAN/PCA-and-Feature-Selection-----Dimensionality-Reduction/assets/65033964/14782ef3-b299-4cdb-bb73-0428375fb0c4)
 
+**Homogeneous System of Linear Equations:**
+
+A linear equation becomes homogeneous when all becomes equal to 0.
+Ex: [ 1 1 3 2] -> A+B+3C+2D = 0.
 
 ![image](https://github.com/TITHI-KHAN/PCA-and-Feature-Selection-----Dimensionality-Reduction/assets/65033964/fea58b9b-7bc0-456d-943b-2a000f2a69fb)
 
