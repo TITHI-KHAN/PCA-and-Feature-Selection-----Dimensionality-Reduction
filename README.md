@@ -65,6 +65,12 @@ Ex: [ 1 1 3 2] -> A+B+3C+2D = 0.
 
 In PCA, some values are calculated based on all the features through eigenvalue and eigenvector; those values carry the whole information.
 
+In Step 2, we have to subtract the mean value from the actual value. 
+
+In Step 4, suppose, there are 4 features. We have to reduce that to 2 or 1 feature(s). In that case, we will use Dimension Reduction. So, we have to select the value of lambda. We can apply either Gaussian Elimination or Cramer's Rule to find out the eigenvalue(s) and eigenvector(s). 
+
+In Step 5-8, we have to subtract the eigenvector from the actual value. Then, we can get the main principal component(s).
+
 **Example:**
 
 ![image](https://github.com/TITHI-KHAN/PCA-and-Feature-Selection-----Dimensionality-Reduction/assets/65033964/0762ac32-d26c-4b6a-bf0f-bbbde379ebc2)
