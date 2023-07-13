@@ -1,6 +1,5 @@
 # PCA and Feature Selection(Dimensionality Reduction)
 
-https://towardsdatascience.com/l1-and-l2-regularization-methods-ce25e7fc831c
 # Dimensionality Reduction (Feature Selection)
 
 **Feature Selection** is the process where you automatically or manually select those features which contribute most to your prediction variable or output in which you are interested. Having irrelevant features in your data can decrease the accuracy of the models and make your model learn based on irrelevant features.
@@ -26,6 +25,28 @@ Feature selection techniques can be **classified into three main categories:**
 **3. Embedded Methods:** Embedded methods incorporate the feature selection process as part of the model training process. These methods typically use regularization techniques, such as **L1 regularization (Lasso) or L2 regularization (Ridge)**, which impose penalties on the model coefficients. The regularization process encourages the model to automatically select the most relevant features during training.
 
 **Note:** If you are working with a Linear model, for example, Linear Regression or Logistic Regression, then use Embedded Methods. But, if you are working tree-based model, then use either Filter Methods or Wrapper Methods. Filter Methods and Wrapper Methods can be used for Classification purposes.
+
+**L1 and L2 Regularization Methods:**
+
+A regression model that uses L1 regularization technique is called **Lasso Regression** and model which uses L2 is called **Ridge Regression**.
+
+The **key difference** between these two is the penalty term.
+
+**Ridge regression** adds “squared magnitude” of coefficient as penalty term to the loss function. Here the highlighted part represents L2 regularization element.
+
+![image](https://github.com/TITHI-KHAN/PCA-and-Feature-Selection-----Dimensionality-Reduction/assets/65033964/a44de8d4-d94c-47b8-ab66-f52910e0654f)
+
+Here, if lambda is zero then you can imagine we get back OLS. However, if lambda is very large then it will add too much weight and it will lead to under-fitting. Having said that it’s important how lambda is chosen. This technique works very well to avoid over-fitting issue.
+
+**Lasso Regression (Least Absolute Shrinkage and Selection Operator)** adds “absolute value of magnitude” of coefficient as penalty term to the loss function.
+
+![image](https://github.com/TITHI-KHAN/PCA-and-Feature-Selection-----Dimensionality-Reduction/assets/65033964/eb4d7533-baaf-4954-8be6-6b1eb485bfdb)
+
+Again, if lambda is zero then we will get back OLS whereas very large value will make coefficients zero hence it will under-fit.
+
+The **key difference** between these techniques is that Lasso shrinks the less important feature’s coefficient to zero thus, removing some feature altogether. So, this works well for feature selection in case we have a huge number of features.
+
+Traditional methods like cross-validation, stepwise regression to handle overfitting and perform feature selection work well with a small set of features but these techniques are a great alternative when we are dealing with a large set of features.
 
 # Introduction to Linear Algebra (Basics)
 
