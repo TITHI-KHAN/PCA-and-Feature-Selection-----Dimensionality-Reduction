@@ -30,15 +30,27 @@ Feature selection techniques can be **classified into three main categories:**
 # Introduction to Linear Algebra (Basics)
 
 **Matrix Addition:**
+
+
 ![image](https://github.com/TITHI-KHAN/PCA-and-Feature-Selection-----Dimensionality-Reduction/assets/65033964/5af6b542-891d-4775-ac38-e8116d13621b)
 
 **Matrix Multiplication:**
+
+
 ![image](https://github.com/TITHI-KHAN/PCA-and-Feature-Selection-----Dimensionality-Reduction/assets/65033964/3686b64a-82f2-4618-b057-dfd8eb00082f)
+
+**Transpose Matrix:**
 
 
 ![image](https://github.com/TITHI-KHAN/PCA-and-Feature-Selection-----Dimensionality-Reduction/assets/65033964/19d4b6a5-d402-464b-a5af-83f2457d7cc6)
 
+**Rank:**
+
+
 ![image](https://github.com/TITHI-KHAN/PCA-and-Feature-Selection-----Dimensionality-Reduction/assets/65033964/af6c5ea9-7cf3-4133-b258-2ce7e34a2bfa)
+
+**Homogeneity of Linear System:**
+
 
 ![image](https://github.com/TITHI-KHAN/PCA-and-Feature-Selection-----Dimensionality-Reduction/assets/65033964/fea58b9b-7bc0-456d-943b-2a000f2a69fb)
 
